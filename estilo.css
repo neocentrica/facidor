@@ -1,7 +1,15 @@
-body{margin: 0 auto; text-align: center; font-size: 1.5em; display: block;}
+body{margin: 0 auto; text-align: center; font-size: 1.5em;
+    background-image: url("bac.png");   
+    background-repeat: no-repeat;
+    background-size: cover;}
+}
 
 img{width: 250px;}
 
 h3 a {font-size: 1em;}
 
 a {color: black;}
+
+@media screen and (max-width: 1700px) {
+    body{background-image: none;}
+}
