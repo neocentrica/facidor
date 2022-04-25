@@ -37,7 +37,3 @@ header:hover {background: url(img/mag.png);}
 @media screen and (max-width: 320px) {
     header{width: 320px; height: 160px; background-size: 320px;}
 }
-
-@media screen and (max-width: 320px) {
-    header{width: 320px; background-size: 320px;}
-}
