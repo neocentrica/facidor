@@ -10,7 +10,7 @@ a {color: black;}
 header {margin: 0 auto;
         width: 512px;
         height: 256px;
-        background: url(img/maq.png);}
+        background: url(img/maq.png); background-repeat: no-repeat;}
 
 header:hover {background: url(img/mag.png);}
 
