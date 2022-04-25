@@ -19,21 +19,21 @@ header:hover {background: url(img/mag.png);}
 }
 
 @media screen and (max-width: 428px) {
-    header{background-size: 428px;}
+    header{width: 428px; background-size: 428px;}
 }
 
 @media screen and (max-width: 414px) {
-    header{background-size: 414px;}
+    header{width: 414px; background-size: 414px;}
 }
 
 @media screen and (max-width: 390px) {
-    header{background-size: 390px;}
+    header{width: 390px; background-size: 390px;}
 }
 
 @media screen and (max-width: 375px) {
-    header{background-size: 375px;}
+    header{width: 375px; background-size: 375px;}
 }
 
 @media screen and (max-width: 320px) {
-    header{background-size: 320px;}
+    header{width: 320px; background-size: 320px;}
 }
