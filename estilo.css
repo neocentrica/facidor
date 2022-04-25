@@ -14,7 +14,7 @@ header {margin: 0 auto;
 
 header:hover {background: url(img/mag.png);}
 
-@media screen and (max-width: 1700px) {
+@media screen and (max-width: 1279px) {
     body{background-image: none;}
 }
 
