@@ -10,9 +10,9 @@ a {color: black;}
 header {margin: 0 auto;
         width: 512px;
         height: 256px;
-        background: url(maq.png);}
+        background: url(img/maq.png);}
 
-header:hover {background: url(mag.png);}
+header:hover {background: url(img/mag.png);}
 
 @media screen and (max-width: 1700px) {
     body{background-image: none;}
