@@ -1,39 +1,59 @@
-body{margin: 0 auto; text-align: center; font-size: 1.5em; font-family: 'Roboto Condensed', sans-serif;
-    background-image: url("img/bac.png");   
-    background-repeat: no-repeat;
-    background-size: cover;}
+body{margin: 0 auto; text-align: center; font-size: 1.5em; font-family: 'Roboto Condensed', sans-serif; background-color: #FAFBFD ;
+    }
 
-h3 a {font-size: 1em;}
+h2 {font-size: 30px;}
+h3 {font-size: 24px;}
+h4 {font-size: 18px;}
 
-a {color: black;}
+a {color: #FAFBFD ;}
 
-header {margin: 0 auto;
+.sidepanel {margin: 0 auto;
+    text-align: center;
+    height: 0;
+    background-color: black; 
+    color: #FAFBFD ;
+    overflow-x: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    transition: 0.5s    ;
+    }
+
+button{color: #FAFBFD ; background-color: black; border: none; cursor: pointer; font-size: 18px; font-family: 'Roboto Condensed', sans-serif;}
+
+header{
+        margin: 0 auto;
+        margin-top: 30px;
         width: 512px;
         height: 256px;
-        background: url(img/maq.png); background-repeat: no-repeat;}
+        background-image: url(img/maq.png);}
 
-header:hover {background: url(img/mag.png);}
+header:hover{   background-image: url(img/macaroni.png);}
 
-@media screen and (max-width: 1279px) {
-    body{background-image: none;}
-}
+footer {margin: 0 auto; text-align: center;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        background-color: black;
+        color: #FAFBFD ; left: 0;
+        }
 
-@media screen and (max-width: 428px) {
-    header{width: 428px; height: 214px; background-size: 428px;}
-}
-
-@media screen and (max-width: 414px) {
-    header{width: 414px; height: 207px; background-size: 414px;}
-}
-
-@media screen and (max-width: 390px) {
-    header{width: 390px; height: 195px; background-size: 390px;}
-}
-
-@media screen and (max-width: 375px) {
-    header{width: 375px; height: 187px; background-size: 375px;}
-}
-
-@media screen and (max-width: 320px) {
-    header{width: 320px; height: 160px; background-size: 320px;}
-}
+        @media screen and (max-width: 428px) {
+            header{width: 428px; height: 214px; background-size: 428px;}
+        }
+        
+        @media screen and (max-width: 414px) {
+            header{width: 414px; height: 207px; background-size: 414px;}
+        }
+        
+        @media screen and (max-width: 390px) {
+            header{width: 390px; height: 195px; background-size: 390px;}
+        }
+        
+        @media screen and (max-width: 375px) {
+            header{width: 375px; height: 187px; background-size: 375px;}
+        }
+        
+        @media screen and (max-width: 320px) {
+            header{width: 320px; height: 160px; background-size: 320px;}
+        }
