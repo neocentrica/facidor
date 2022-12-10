@@ -16,7 +16,8 @@ a {color: #FAFBFD ;}
     position: fixed;
     bottom: 0;
     width: 100%;
-    transition: 0.5s    ;
+    transition: 0.5s;
+    z-index: 1;
     }
 
 button{color: #FAFBFD ; background-color: black; border: none; cursor: pointer; font-size: 18px; font-family: 'Roboto Condensed', sans-serif;}
