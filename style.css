@@ -1,4 +1,4 @@
-body{margin: 0 auto; text-align: center; font-size: 1.5em; font-family: 'Roboto Condensed', sans-serif; background-color: #FAFBFD ;
+body{margin: 0 auto; text-align: center; font-size: 1.5em; font-family: 'Roboto Condensed', sans-serif; background-color: #FAFBFD ; width: 100%;
     }
 
 h2 {font-size: 30px;}
@@ -20,16 +20,13 @@ a {color: #FAFBFD ;}
     z-index: 1;
     }
 
+img{margin-top: 1%;}
+.arq {display: none;}
+
+header:hover .arq {display: inline;}
+header:hover    .ms {display: none;}
+
 button{color: #FAFBFD ; background-color: black; border: none; cursor: pointer; font-size: 18px; font-family: 'Roboto Condensed', sans-serif;}
-
-header{
-        margin: 0 auto;
-        margin-top: 30px;
-        width: 512px;
-        height: 256px;
-        background-image: url(img/maq.png);}
-
-header:hover{   background-image: url(img/umac.png);}
 
 footer {margin: 0 auto; text-align: center;
         position: fixed;
@@ -39,22 +36,6 @@ footer {margin: 0 auto; text-align: center;
         color: #FAFBFD ; left: 0;
         }
 
-        @media screen and (max-width: 428px) {
-            header{width: 428px; height: 214px; background-size: 428px;}
-        }
-        
-        @media screen and (max-width: 414px) {
-            header{width: 414px; height: 207px; background-size: 414px;}
-        }
-        
-        @media screen and (max-width: 390px) {
-            header{width: 390px; height: 195px; background-size: 390px;}
-        }
-        
-        @media screen and (max-width: 375px) {
-            header{width: 375px; height: 187px; background-size: 375px;}
-        }
-        
-        @media screen and (max-width: 320px) {
-            header{width: 320px; height: 160px; background-size: 320px;}
-        }
+@media screen and (max-width: 512px) {img {width: 95%;}
+    
+}
